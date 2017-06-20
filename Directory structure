@@ -1,0 +1,25 @@
+/vsipf
+    app.js
+    /bin
+        www
+    package.json
+    /node_modules
+        [about 4,500 subdirectories and files]
+    /public
+        /images
+        /javascripts
+        /stylesheets
+            style.css
+    /routes
+        index.js
+        users.js
+    /views
+        error.pug
+        index.pug
+        layout.pug 
+
+Other Information
+
+1. package.json - defines the application dependencies and other information.
+2. www file - The application entry point. It sets up a node HTTP server with app set to 3000.
+3. app.js - This file creates an express application object (named app, by convention), sets up the application with various settings and middleware, and then exports the app from the module.
